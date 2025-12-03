@@ -1,0 +1,62 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/universal_robots/protos/UR5e.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/balls/protos/Ball.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/solids/protos/SolidBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.0059437215640506845 0.013452914329759915 0.9998918397856866 4.739248797425635
+  position -0.02603799661193006 2.093695861759951 0.4652216257590379
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+UR5e {
+  translation 0.0400008 -0.219999 0.5
+  rotation 0 0 1 1.5708
+  controller "ure5_TEST"
+}
+Ball {
+  translation 0.39 0.61 0.2
+}
+Ball {
+  translation 0 0.61 0.2
+  name "ball(1)"
+}
+Ball {
+  translation -0.39 0.61 0.2
+  name "ball(2)"
+}
+WoodenBox {
+  translation 0 -0.16 0.25
+  size 0.4 0.4 0.5
+}
+Table {
+  translation -2.14118e-07 0.79 -0.02
+  rotation 0 0 1 -1.5707953071795862
+  size 0.5 1.5 0.16
+}
+SolidBox {
+  translation 0 -0.05 0.34
+  size 0.32 0.195 0.18
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://static.vecteezy.com/system/resources/thumbnails/049/630/540/small/green-animation-motion-graphic-with-chroma-green-screen-clip-template-4k-background-video.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
