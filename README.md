@@ -56,7 +56,7 @@ Configurable Parameters
   ![Experiment Kernel](./Readme_material/Test_kernel.png)
   ![Experiment Video](./Readme_material/Video.png)
 
-### How to run
+## How to run
 
 ### `Robot`
 
