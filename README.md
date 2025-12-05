@@ -48,13 +48,13 @@ It measures reaction time and accuracy as participants predict which ball the ro
 2. User presses the number key corresponding to the ball(counting from left → right) that they believe the robot will reach.
 3. After running all trials, reaction time and correctness are logged for analysis.
 
-Configurable Parameters
+Configurable Parameters: These allow testing different visual cue conditions.
 
 - num_balls: [3, 5, 7]
 - type_visual: ["none","arrows","eyes","text"]
-  These allow testing different visual cue conditions.
-  ![Experiment Kernel](./Readme_material/Test_kernel.png)
-  ![Experiment Video](./Readme_material/Video.png)
+
+![Experiment Kernel](./Readme_material/Test_kernel.png)
+![Experiment Video](./Readme_material/Video.png)
 
 ## How to run
 
