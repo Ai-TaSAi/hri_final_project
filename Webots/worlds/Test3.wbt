@@ -9,35 +9,38 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/tables/protos/Table.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/solids/protos/SolidBox.proto"
 
-WorldInfo {
-}
+WorldInfo { }
+
 Viewpoint {
   orientation 0.0059437215640506845 0.013452914329759915 0.9998918397856866 4.739248797425635
   position -0.02603799661193006 2.093695861759951 0.4652216257590379
 }
-TexturedBackground {
-}
-TexturedBackgroundLight {
-}
+
+TexturedBackground { }
+TexturedBackgroundLight { }
+
 RectangleArena {
   floorSize 2 2
 }
+
 UR5e {
   translation 0.0400008 -0.219999 0.5
   rotation 0 0 1 1.5708
   controller "ure5_TEST"
+  supervisor TRUE
 }
-Ball {
-  translation 0.39 0.61 0.2
-}
-Ball {
-  translation 0 0.61 0.2
-  name "ball(1)"
-}
-Ball {
-  translation -0.39 0.61 0.2
-  name "ball(2)"
-}
+
+# --- Balls ---
+DEF BALL0 Ball { translation 0.45 0.61 0.2 } 
+DEF BALL1 Ball { translation 0.3 0.61 0.2 } 
+DEF BALL2 Ball { translation 0.15 0.61 0.2 }
+DEF BALL3 Ball { translation 0 0.61 0.2 } 
+DEF BALL4 Ball { translation -0.15 0.61 0.2 }
+DEF BALL5 Ball { translation -0.3 0.61 0.2 } 
+DEF BALL6 Ball { translation -0.45 0.61 0.2 }
+
+
+# --- Other objects ---
 WoodenBox {
   translation 0 -0.16 0.25
   size 0.4 0.4 0.5
