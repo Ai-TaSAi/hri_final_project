@@ -1,0 +1,8 @@
+Sylvia Chang
+- IK functions for robotic arm (In both Webots and Mujoco).
+- Abstract, Introduction, Related Work, Limitations, Future Work sections of paper
+
+Rui Wen
+- Initial project setup and planning in Webots.
+- Data collecting for trials.
+- Methodology, Experiment, Results, Discussion, Limitations sections of paper
