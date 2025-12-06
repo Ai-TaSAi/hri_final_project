@@ -1,0 +1,11 @@
+trial,video,key,reaction_time,correct,speed
+1,./7Ball/7Ball_Text5.mp4,5,6.175,True,0.8
+2,./7Ball/7Ball_Text6.mp4,1,1.894,False,0.8
+3,./7Ball/7Ball_Text2.mp4,2,0.478,True,0.8
+4,./7Ball/7Ball_Text4.mp4,2,0.262,False,0.8
+5,./7Ball/7Ball_Text7.mp4,2,0.119,False,0.8
+6,./7Ball/7Ball_Text3.mp4,3,0.405,True,0.8
+7,./7Ball/7Ball_Text7.mp4,4,0.349,False,0.8
+8,./7Ball/7Ball_Text6.mp4,5,0.526,False,0.8
+9,./7Ball/7Ball_Text7.mp4,1,1.893,False,0.8
+10,./7Ball/7Ball_Text1.mp4,6,0.462,False,0.8
